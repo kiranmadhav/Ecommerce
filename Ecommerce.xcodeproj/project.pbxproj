@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81E61D992F47D1DA393C5AE2 /* Pods_Ecommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDC23290A2E788A83CD6C3F /* Pods_Ecommerce.framework */; };
+		88380B5C1E9768B2007EA58F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88380B5B1E9768B2007EA58F /* SearchViewController.swift */; };
 		883978A11E937EF90095071D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978A01E937EF90095071D /* AppDelegate.swift */; };
 		883978A31E937EF90095071D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978A21E937EF90095071D /* ViewController.swift */; };
 		883978A61E937EF90095071D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883978A41E937EF90095071D /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		883978AE1E937EF90095071D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883978AC1E937EF90095071D /* LaunchScreen.storyboard */; };
 		883978B91E937EF90095071D /* EcommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978B81E937EF90095071D /* EcommerceTests.swift */; };
 		883978C41E937EF90095071D /* EcommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978C31E937EF90095071D /* EcommerceUITests.swift */; };
+		88F4CCB31E9CB6BA008D1681 /* LocationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4CCB21E9CB6BA008D1681 /* LocationModelTests.swift */; };
+		CC5F77581E95338900C18C6B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F77571E95338900C18C6B /* Constants.swift */; };
+		CCC3AC621E965428008E783E /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3AC611E965428008E783E /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36D51A8F3013FFAE607C7B63 /* Pods-Ecommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		40A98377A9095F301BBE374B /* Pods-Ecommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce.release.xcconfig"; sourceTree = "<group>"; };
+		88380B5B1E9768B2007EA58F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		8839789D1E937EF90095071D /* Ecommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883978A01E937EF90095071D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883978A21E937EF90095071D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,11 @@
 		883978BF1E937EF90095071D /* EcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		883978C31E937EF90095071D /* EcommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceUITests.swift; sourceTree = "<group>"; };
 		883978C51E937EF90095071D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F4CCB21E9CB6BA008D1681 /* LocationModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModelTests.swift; sourceTree = "<group>"; };
+		9DDC23290A2E788A83CD6C3F /* Pods_Ecommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5F77571E95338900C18C6B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CCC3AC611E965428008E783E /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		CCD6BCCD1E94DF7E00CCA585 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E61D992F47D1DA393C5AE2 /* Pods_Ecommerce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,8 @@
 				883978B71E937EF90095071D /* EcommerceTests */,
 				883978C21E937EF90095071D /* EcommerceUITests */,
 				8839789E1E937EF90095071D /* Products */,
+				E12F7DB36C0622B096A91FDA /* Pods */,
+				FDBFE08B7B3135AB63014BE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +122,9 @@
 				883978AC1E937EF90095071D /* LaunchScreen.storyboard */,
 				883978AF1E937EF90095071D /* Info.plist */,
 				883978A71E937EF90095071D /* Ecommerce.xcdatamodeld */,
+				CC5F77571E95338900C18C6B /* Constants.swift */,
+				CCC3AC611E965428008E783E /* LocationModel.swift */,
+				88380B5B1E9768B2007EA58F /* SearchViewController.swift */,
 			);
 			path = Ecommerce;
 			sourceTree = "<group>";
@@ -115,6 +134,7 @@
 			children = (
 				883978B81E937EF90095071D /* EcommerceTests.swift */,
 				883978BA1E937EF90095071D /* Info.plist */,
+				88F4CCB21E9CB6BA008D1681 /* LocationModelTests.swift */,
 			);
 			path = EcommerceTests;
 			sourceTree = "<group>";
@@ -128,6 +148,24 @@
 			path = EcommerceUITests;
 			sourceTree = "<group>";
 		};
+		E12F7DB36C0622B096A91FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D51A8F3013FFAE607C7B63 /* Pods-Ecommerce.debug.xcconfig */,
+				40A98377A9095F301BBE374B /* Pods-Ecommerce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDBFE08B7B3135AB63014BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6BCCD1E94DF7E00CCA585 /* Alamofire.framework */,
+				9DDC23290A2E788A83CD6C3F /* Pods_Ecommerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 883978C81E937EFA0095071D /* Build configuration list for PBXNativeTarget "Ecommerce" */;
 			buildPhases = (
+				A1871138E8EF5A3A93E17DA4 /* [CP] Check Pods Manifest.lock */,
 				883978991E937EF90095071D /* Sources */,
 				8839789A1E937EF90095071D /* Frameworks */,
 				8839789B1E937EF90095071D /* Resources */,
+				5BBCBD745ED063DF9B3AA838 /* [CP] Embed Pods Frameworks */,
+				AB48210B0CE2E2B3B3A5FC3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +301,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BBCBD745ED063DF9B3AA838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1871138E8EF5A3A93E17DA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB48210B0CE2E2B3B3A5FC3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecommerce/Pods-Ecommerce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		883978991E937EF90095071D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88380B5C1E9768B2007EA58F /* SearchViewController.swift in Sources */,
 				883978A91E937EF90095071D /* Ecommerce.xcdatamodeld in Sources */,
 				883978A31E937EF90095071D /* ViewController.swift in Sources */,
 				883978A11E937EF90095071D /* AppDelegate.swift in Sources */,
+				CCC3AC621E965428008E783E /* LocationModel.swift in Sources */,
+				CC5F77581E95338900C18C6B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F4CCB31E9CB6BA008D1681 /* LocationModelTests.swift in Sources */,
 				883978B91E937EF90095071D /* EcommerceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,12 +510,18 @@
 		};
 		883978C91E937EFA0095071D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D51A8F3013FFAE607C7B63 /* Pods-Ecommerce.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NM9Z5R2LXS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = Ecommerce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qrcodescannerapp.www.Ecommerce;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecom.www.Ecommerce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,12 +529,18 @@
 		};
 		883978CA1E937EFA0095071D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A98377A9095F301BBE374B /* Pods-Ecommerce.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NM9Z5R2LXS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = Ecommerce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qrcodescannerapp.www.Ecommerce;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecom.www.Ecommerce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,6 +623,7 @@
 				883978CA1E937EFA0095071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		883978CB1E937EFA0095071D /* Build configuration list for PBXNativeTarget "EcommerceTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +632,7 @@
 				883978CD1E937EFA0095071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		883978CE1E937EFA0095071D /* Build configuration list for PBXNativeTarget "EcommerceUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +641,7 @@
 				883978D01E937EFA0095071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
