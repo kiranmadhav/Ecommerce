@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         let storyBoard = UIStoryboard(name:"Main", bundle:nil)
         
-        let searchViewController = storyBoard.instantiateViewController(withIdentifier: "SearchViewController");
+        et searchViewController = storyBoard.instantiateViewController(withIdentifier: "SearchViewController");
         
         self.navigationController?.pushViewController(searchViewController, animated: true)
         
