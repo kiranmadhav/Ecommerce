@@ -18,38 +18,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         let storyBoard = UIStoryboard(name:"Main", bundle:nil)
         
-        et searchViewController = storyBoard.instantiateViewController(withIdentifier: "SearchViewController");
+        let searchViewController = storyBoard.instantiateViewController(withIdentifier: "SearchViewController");
         
         self.navigationController?.pushViewController(searchViewController, animated: true)
         
 //        storyBoard.instantiateInitialViewController(withIdentifier: "SearchViewController")
-        
-//        Alamofire.request(
-//            URL(string: Constants.Google.Base + "bangalore")!,
-//            method: .get,
-//            parameters: ["include_docs": "true"])
-//            .validate()
-//            .responseJSON { (response) -> Void in
-//                guard response.result.isSuccess else {
-//                    print("Error while fetching remote rooms: \(String(describing: response.result.error))")
-//                    return
-//                }
-//                
-//                guard let value = response.result.value as? [String: Any],
-//                    let rows = value["predictions"] as? NSArray else {
-//                        print("Malformed data received from fetchAllRooms service")
-//                        return
-//                }
-//                
-//                let rooms = rows.flatMap({ (roomDict) -> LocationModel? in
-//                    return LocationModel(rawData: roomDict as! NSDictionary)!
-//                })
-//            
-//                let locObj : LocationModel! = rooms[0] 
-//                
-//                print("Rows \(String(describing: locObj.locName))")
-//
-//        }
     
     }
     
