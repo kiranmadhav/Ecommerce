@@ -15,7 +15,6 @@
 		883978A91E937EF90095071D /* Ecommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883978A71E937EF90095071D /* Ecommerce.xcdatamodeld */; };
 		883978AB1E937EF90095071D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883978AA1E937EF90095071D /* Assets.xcassets */; };
 		883978AE1E937EF90095071D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883978AC1E937EF90095071D /* LaunchScreen.storyboard */; };
-		883978B91E937EF90095071D /* EcommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978B81E937EF90095071D /* EcommerceTests.swift */; };
 		883978C41E937EF90095071D /* EcommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883978C31E937EF90095071D /* EcommerceUITests.swift */; };
 		CC5D8CDC1E9A02BC001C7494 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5D8CDB1E9A02BC001C7494 /* TableViewController.swift */; };
 		CC5F77581E95338900C18C6B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F77571E95338900C18C6B /* Constants.swift */; };
@@ -52,7 +51,6 @@
 		883978AD1E937EF90095071D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883978AF1E937EF90095071D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883978B41E937EF90095071D /* EcommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		883978B81E937EF90095071D /* EcommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceTests.swift; sourceTree = "<group>"; };
 		883978BA1E937EF90095071D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883978BF1E937EF90095071D /* EcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		883978C31E937EF90095071D /* EcommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceUITests.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 		883978B71E937EF90095071D /* EcommerceTests */ = {
 			isa = PBXGroup;
 			children = (
-				883978B81E937EF90095071D /* EcommerceTests.swift */,
 				883978BA1E937EF90095071D /* Info.plist */,
 			);
 			path = EcommerceTests;
@@ -368,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883978B91E937EF90095071D /* EcommerceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
